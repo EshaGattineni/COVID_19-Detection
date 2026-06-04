@@ -9,22 +9,6 @@ Link to dataset - [Click here](https://www.kaggle.com/datasets/hgunraj/covidxct)
 <p align="center"><img src="images/phase-2.jpg" height = "200" width="800"></p>
 
 
-If you find our work useful, can cite our paper using:
-
-```
-@article{HASIJA2022100069,
-title = {A Novel Approach for detecting Normal, COVID-19 and Pneumonia patient using only binary classifications from chest CT-Scans},
-journal = {Neuroscience Informatics},
-pages = {100069},
-year = {2022},
-issn = {2772-5286},
-doi = {https://doi.org/10.1016/j.neuri.2022.100069},
-url = {https://www.sciencedirect.com/science/article/pii/S2772528622000310},
-keywords = {COVID-19, Chest CT Scan, CNN, Two Binary Classifications, Multi class Classification, Classification Metrics},
-abstract = {The novel Coronavirus, Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) spread all over the world, causing a dramatic shift in circumstances that resulted in a massive pandemic, affecting the world's well-being and stability. It is an RNA virus that can infect both humans as well as animals. Diagnosis of the virus as soon as possible could contain and avoid a serious COVID-19 outbreak. Current pharmaceutical techniques and diagnostic methods tests such as Reverse Transcription-Polymerase Chain Reaction (RT-PCR) and Serology tests are time-consuming, expensive, and require a well-equipped laboratory for analysis, making them restrictive and inaccessible to everyone. Deep Learning has grown in popularity in recent years, and it now plays a crucial role in Image Classification, which also involves Medical Imaging. Using chest CT scans, this study explores the problem statement automation of differentiating COVID-19 contaminated individuals from healthy individuals. Convolutional Neural Networks (CNNs) can be trained to detect patterns in computed tomography scans (CT scans). Hence, different CNN models were used in the current study to identify variations in chest CT scans, with accuracies ranging from 91% to 98%. The Multi class Classification method is used to build these architectures. This study also proposes a new approach for classifying CT images that uses two binary classifications combined to work together, achieving 98.38% accuracy. All of these architectures' performances were compared using different classification metrics.}
-}
-}
-```
 
 
 
@@ -45,10 +29,10 @@ Predictions from both phase-1 and phase-2 on the test set were combined and conf
 
 
 # Training Curves 
-### Accuracy Curves : 
+### Loss Curves : 
 <p align="center"><img src="images/phase%20-1%20loss.jpg" > <img src="images/phase%20-2%20loss.jpg" ></p>
 
-### Loss Curves : 
+### Accuracy Curves : 
 <p align="center"><img src="images/phase-1%20acc.jpg" > <img src="images/phase%20-2%20acc.jpg" ></p>
 
 # Results:
